@@ -2,7 +2,7 @@
 
 > Developed on Symfony 4
 
-> ** How to start locally: **
+## **How to start locally:**
 
 1. Run composer
 composer install
@@ -14,7 +14,7 @@ php bin/console doctrine:migrations:migrate
 php bin/console server:run
 
 
-> ** Available routes: ** 
+## **Available routes:** 
 
 - http://……./activities/
 Will return all activities
