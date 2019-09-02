@@ -7,7 +7,7 @@
 1. Run composer
 composer install
 
-2. Configurate your .env.local
+2. Copy .env to .env.local and set up your DB configuration
 
 3. Run migrations
 php bin/console doctrine:migrations:migrate
