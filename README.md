@@ -7,10 +7,12 @@
 1. Run composer
 composer install
 
-2. Run migrations
+2. Configurate your .env.local
+
+3. Run migrations
 php bin/console doctrine:migrations:migrate
 
-3. Start server
+4. Start server
 php bin/console server:run
 
 
